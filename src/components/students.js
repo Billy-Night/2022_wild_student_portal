@@ -1,10 +1,9 @@
-import './App.css';
 
 //This is where all the student contact details will go and the cards
 
 const Studentdetails = (props) => (
     <div>
-        <img className="img" src={props.image} alt=""></img>
+        <img src={props.image} alt=""></img>
         <h1>This is where student information goes</h1>
         <p>Name:{props.name}</p>
         <p>Location:{props.location}</p>
