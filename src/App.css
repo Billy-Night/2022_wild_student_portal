@@ -1,0 +1,11 @@
+.cards {
+    border: solid;
+    background-color: red;
+    width: 300px;
+}
+.cards img {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    width: 180px;
+}
