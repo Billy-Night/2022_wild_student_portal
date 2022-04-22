@@ -1,11 +1,17 @@
+.container {
+    display: flex;
+}
+
 .cards {
     border: solid;
-    background-color: red;
+    background-color: none;
     width: 300px;
+    padding: 10px;
+    margin: 10px;
 }
 .cards img {
-    display: flex;
-    justify-content: center;
     object-fit: contain;
     width: 180px;
+    border: 0px;
+    padding: 0px;
 }
